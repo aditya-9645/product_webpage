@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+body{
+    font-family: "Quicksand", sans-serif;
+}
+.container{
+    width: 75vw;
+    margin: 0 auto;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+
+.logo img{
+    height: 60px;
+    width: 120px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+button{
+    background-color: #edfc55;
+    height: 32px;
+    color: black;
+    font-weight:300;
+    padding: 6px 16px;
+    border: none;
+    box-shadow: 0 1px 2px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.secondary-btn{
+    background-color: transparent;
+    box-shadow: none;
+
+    border: 1px solid #edfc55;
+}
+
+.product{
+    display:flex;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.product-content h1{
+    margin: 0;
+    font-size: 108px;
+    font-weight: 800;
+    line-height: 102px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 50px;
+}
+
+.product-content p{
+    margin: 0;
+    font-weight: 600;
+    color: rgb(82, 82, 82);
+    max-width: 400px;
+}
+
+.platform-icons img{
+    width:70px;
+    height: 20px;
+    
+}
+
+.platform-icons{
+    gap: 24px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.green-text{
+    color: #edfc55;
+}
+
+.product-btn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.shopping-platforms p{
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.product-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
